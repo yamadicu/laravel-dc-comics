@@ -18,7 +18,7 @@
         <form action="{{route('comics.destroy',  $elem) }}" method="POST">
             @csrf
             @method('DELETE')
-            <a  onclick="return cancellaComic()" type="submit" class="btn btn-danger my-1">Cancella</a>
+            <button  onclick="return cancellaComic()" type="submit" class="btn btn-danger my-1">Cancella</button>
         </form>
 
     @empty
